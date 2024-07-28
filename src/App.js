@@ -169,11 +169,11 @@ function App() {
                 {''}
               </td>
             </tr>
-            <tr>
+            <tr className="bg-adder">
               <td className="input-cell">
                 <input
                   type="text"
-                  placeholder="ID"
+                  placeholder="Enter ID"
                   name="id"
                   value={inputState.id}
                   onChange={handleChange}
@@ -183,7 +183,7 @@ function App() {
               <td className="input-cell">
                 <input
                   type="text"
-                  placeholder="Machine ID"
+                  placeholder="Enter Machine ID"
                   name="machineId"
                   value={inputState.machineId}
                   onChange={handleChange}
@@ -193,7 +193,7 @@ function App() {
               <td className="input-cell">
                 <input
                   type="text"
-                  placeholder="Maintained By"
+                  placeholder="Enter Maintained By"
                   name="maintainedBy"
                   value={inputState.maintainedBy}
                   onChange={handleChange}
@@ -203,7 +203,7 @@ function App() {
               <td className="input-cell">
                 <input
                   type="text"
-                  placeholder="Machine IP"
+                  placeholder="Enter Machine IP"
                   name="machineIp"
                   value={inputState.machineIp}
                   onChange={handleChange}
